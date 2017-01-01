@@ -3,6 +3,9 @@
 # compiled output
 /dist
 /tmp
+/semantic
+/optimize
+
 
 # dependencies
 /node_modules
