@@ -1,0 +1,6 @@
+@import "../styles";
+
+
+h1 {
+  @include font-family;
+}
