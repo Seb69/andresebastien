@@ -1,6 +1,33 @@
-@import "../styles";
-
-
-h1 {
-  @include font-family;
+//@import "../styles";
+//
+//
+//h1 {
+//  @include font-family;
+//}
+#one-side-shadow {
+  -webkit-box-shadow: 0 8px 16px -6px gray;
+  -moz-box-shadow: 0 8px 16px -6px gray;
+  box-shadow: 0 8px 16px -6px gray;
 }
+
+#image-position{
+  margin-top: 3em;
+}
+
+.font-size{
+  font-size: 1.5em;
+}
+
+
+
+#avatar-description{
+
+  max-width: 28em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+
+}
+
+
