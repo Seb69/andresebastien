@@ -1,12 +1,30 @@
-<div class="ui stackable one column grid" id="one-side-shadow">
+<div class="background ui stackable one column grid" id="one-side-shadow">
 
   <div class="column middle aligned">
-    <div class="ui large image" style="background-image: url('/assets/mainimage.svg');background-repeat: no-repeat">
-      <img class="ui medium circular image centered" src="/assets/AVATAR.jpg" id="image-position">
-      <p class="ui centered break-word font-size" id="avatar-description">
-        Sebastien ANDRE, a graduate student with experience in research,
-        cloud computing, web and software development.</p>
+
+    <div class="ui stackable two column grid">
+      <div class="column middle aligned">
+        <img class="ui centered  circular fluid image " src="/assets/AVATAR.jpg" id="avatar-picture">
+      </div>
+
+      <!--COMPUTER-->
+      <div class=" column middle aligned computer tablet only">
+        <h1 class="ui  centered break-word font-size avatar-description-computer ">
+          <strong>Sebastien ANDRE</strong>, a graduate student with experience in research,
+          cloud computing, web and software development.</h1>
+      </div>
+
+      <!--MOBILE-->
+      <div class=" column middle aligned mobile only">
+        <h1 class="ui centered break-word font-size avatar-description-mobile">
+          <strong>Sebastien ANDRE</strong>, a graduate student with experience in research,
+          cloud computing, web and software development.</h1>
+      </div>
+
     </div>
   </div>
 </div>
+<app-welcome></app-welcome>
+<app-projects></app-projects>
+<div style="background-color: red;height: 2em;text-align: center">STOP</div>
 

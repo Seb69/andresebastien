@@ -10,24 +10,44 @@
   box-shadow: 0 8px 16px -6px gray;
 }
 
-#image-position{
+#avatar-picture{
   margin-top: 3em;
+  margin-bottom: 3em;
+  max-width: 24em;
 }
 
 .font-size{
   font-size: 1.5em;
 }
 
-
-
-#avatar-description{
-
-  max-width: 28em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-
+.background {
+  background-image: url("assets/Artboard 1.svg");
 }
 
+.avatar-image-size {
+  width: 33em;
+}
 
+// AVATAR DESCRIPTION
+
+.avatar-description {
+
+  max-width: 21em;
+  display: block;
+  padding: 1em;
+  background-color: rgba(238,238,238,0.95);
+}
+
+.avatar-description-computer{
+
+  @extend .avatar-description;
+  float: left;
+  margin-right: 1em;
+}
+.avatar-description-mobile{
+
+  @extend .avatar-description;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
