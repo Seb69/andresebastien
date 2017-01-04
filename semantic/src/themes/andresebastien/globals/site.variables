@@ -148,8 +148,8 @@
 @mobileBreakpoint            : 320px;
 @tabletBreakpoint            : 660px;
 @computerBreakpoint          : 992px;
-@largeMonitorBreakpoint      : 1200px;
-@widescreenMonitorBreakpoint : 1920px;
+@largeMonitorBreakpoint      : 1800px;
+@widescreenMonitorBreakpoint : 1800px;
 
 /*-------------------
       Site Colors
