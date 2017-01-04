@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Project} from './shared';
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  projects: Project[] = [
+    {
+      name: "PROJECT ONE",
+      date: "2016",
+      description: "Good project on going",
+      picture: "/assets/Artboard 1.svg",
+      links: []
+    },
+    {
+      name: "PROJECT TWO",
+      date: "2015",
+      description: "Average project on going",
+      picture: "/assets/Artboard 1.svg",
+      links: []
+    }
+  ];
+
+
 
   ngOnInit() {
+
   }
 
 }
