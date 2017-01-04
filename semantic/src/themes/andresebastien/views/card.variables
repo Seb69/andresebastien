@@ -132,7 +132,7 @@
 @extraMargin: 0em 0em;
 @extraPadding: 0.75em 1em;
 @extraBoxShadow: none;
-@extraColor: @lightTextColor;
+@extraColor: @darkTextColor;
 @extraTransition: color @defaultDuration @defaultEasing;
 
 /* Extra Links */
