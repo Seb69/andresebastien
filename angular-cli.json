@@ -1,6 +1,6 @@
 {
   "project": {
-    "version": "1.0.0-beta.24",
+    "version": "1.0.0-beta.25.5",
     "name": "resume"
   },
   "apps": [
@@ -18,8 +18,8 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.scss",
-        "../semantic/dist/semantic.min.css"
+        "styles.css",
+"../semantic/dist/semantic.min.css"
       ],
       "scripts": [],
       "environments": {
@@ -42,7 +42,7 @@
     }
   },
   "defaults": {
-    "styleExt": "scss",
+    "styleExt": "css",
     "prefixInterfaces": false,
     "inline": {
       "style": false,

@@ -17,6 +17,16 @@ img:hover {
   filter: none;
 }
 
+.image-layout{
+  max-width: 10em;
+  min-width: 5.3em;
+  padding: 1em;
+}
+
+.footer-layout{
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
 
 .image-center {
   display: block;
@@ -50,8 +60,6 @@ img:hover {
 // BOTTOM
 .bottom {
   background-color: black;
-  width: 100%;
-  height: 1.8em;
   color: gray;
   text-align: center;
 }
